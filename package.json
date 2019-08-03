@@ -1,0 +1,15 @@
+{
+  "name": "benchmarks",
+  "version": "1.0.0",
+  "description": "Personal JavaScript benchmarks out of curiosity, mainly to check JIT by V8",
+  "repository": "git@github.com:antidotech/benchmark.git",
+  "author": "Sho Miyamoto <shqld8@gmail.com>",
+  "scripts": {
+    "benchmark": "RUN_TYPE=benchmark node",
+    "trace": "RUN_TYPE=trace node --trace-opt --trace-deopt",
+    "simple": "RUN_TYPE=simple node"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
